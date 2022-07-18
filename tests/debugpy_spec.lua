@@ -1,3 +1,4 @@
+-- stylua: ignore start
 local venv_dir = os.tmpname()
 local dap = require('dap')
 local dappy = require('dap-python')
@@ -56,3 +57,4 @@ describe('dap with debugpy', function()
 end)
 
 vim.fn.delete(venv_dir, 'rf')
+-- stylua: ignore end

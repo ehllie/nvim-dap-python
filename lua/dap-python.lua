@@ -1,3 +1,4 @@
+-- stylua: ignore start
 local api = vim.api
 local M = {}
 
@@ -398,3 +399,4 @@ end
 
 
 return M
+-- stylua: ignore end
